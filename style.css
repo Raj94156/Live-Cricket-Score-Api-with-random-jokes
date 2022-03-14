@@ -1,0 +1,50 @@
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(logo.jpeg);
+}
+
+
+.container {
+  width: fit-content;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: gray;
+  border-radius: 8px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.container p {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 3rem;
+  text-align: center;
+}
+
+/* ********************* */
+/* This Code is for only the floating card in right bottom corner */
+/* ********************** */
+
+* {
+  box-sizing: border-box;
+}
+
+.score{
+  float: left;
+  width: 50%;
+  display: inline-block;
+  background-color: aqua;
+   
+
+}
+.joke
+{
+  float: left;
+  width: 50%;
+}
+.display-2
+{
+  background-color: aquamarine;
+  opacity: 0.7;
+}
